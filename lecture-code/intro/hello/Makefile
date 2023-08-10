@@ -1,5 +1,5 @@
 hello:
-	cc -c hello.c -o hello.o
+	cc hello.c -o hello.o
 clean:
 	$(RM) hello.o
 	$(RM) hello.out
